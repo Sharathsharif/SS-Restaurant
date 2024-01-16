@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./Preloader.css"
 import { IoRestaurant } from "react-icons/io5";
-import { preLoaderAnim } from "../Animations";
+import { preLoaderAnim } from "../../Animations";
 
 
 function PreLoader() {

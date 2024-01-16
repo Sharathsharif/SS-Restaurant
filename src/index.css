@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital@1&display=swap');
+.fira-sans condensed-regular-italic {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+body {
+   
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+code{
+    font-family: "Fira Sans Condensed", sans-serif; 
+}

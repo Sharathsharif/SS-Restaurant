@@ -1,15 +1,14 @@
 import './App.css';
-import PreLoader from './Components/Preloader';
-import Landing from '../src/Animations/Landing'
+import Navbarpage from './Components/Navbar';
+import Footerpage from './Components/Footer';
+import Home from './Components/Pages/Home';
+
 function App() {
   return (
     <div>
-      <PreLoader />
-     
-        <Landing />
-
-
-
+      <Navbarpage/>
+      
+      <Footerpage/>
       
     </div>
 
@@ -18,4 +17,3 @@ function App() {
 }
 
 export default App;
- 
