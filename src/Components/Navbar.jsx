@@ -33,6 +33,7 @@ export default function Navbarpage(){
           </Navbar.Collapse>
         </Container>
       </Navbar>
+   
       
       <Routes>
         <Route path='/Home' element={<Home/>}/>

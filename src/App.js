@@ -7,6 +7,7 @@ function App() {
   return (
     <div>
       <Navbarpage/>
+      <Home/>
       
       <Footerpage/>
       
