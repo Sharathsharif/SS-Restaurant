@@ -1,5 +1,5 @@
 .home-page header{
-    background-image: url( ../Image/Header_Image.jpg)
+    background-image: url( ../Image/HomeHeader.jpg)
     ;
 }
 header{
@@ -14,9 +14,30 @@ header h1{
     text-shadow: 2px 2px 8 px red;
 }
 
+
+.menu-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.797), rgba(0, 0, 0, 0.737)), url(../Image/HomeMenu.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 @media only screen and (max-width: 760px)
 {
     header h1 {
-        font: size 3rem; ;
+        font: size 4rem; ;
     }
 }
+@media only screen and (max-width: 570px)
+{
+    header h1 {
+        font-size: 3rem;
+    }
+}
+
+
+
+.Navbarstyles {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px); /* Optional: Add a backdrop filter for a blurred effect */
+  }
+  

@@ -6,28 +6,25 @@ import Home from './Pages/Home';
 import Menu from './Pages/Menu';
 import Contact from './Pages/Contact';
 import About from './Pages/About';
-
-
-
-
+import "./Pages/Home.css"
 
 export default function Navbarpage(){
     return(
-        <div>
-      <Navbar expand="Ig" className='fixed-top bg-body-tertiarry shadow'>
+        <div className='Navbarstyles'>
+      <Navbar expand="lg" className='fixed-top bg-body-tertiary shadow'>
         <Container>
           <Navbar.Brand>
-            <Link to="./Home" className='navbar-brand text-success fw-bold '>SS Restaurant</Link>
+            <Link to="./" className='navbar-brand text-success fw-semibold '>SS Restaurant</Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav'/>
           <Navbar.Collapse id='basic-navbar-nav' >
             <Nav className="me-auto justify-content-end w-100">
-              <Nav.Link href='/Home' className='text-uppercase  fw-semibold'>Home</Nav.Link>
-              <Nav.Link href='/Menu' className='text-uppercase fw-semibold'>Menu</Nav.Link>
+              <Nav.Link href ='/' className=' active text-uppercase  fw-semibold'>Home</Nav.Link>
+              <Nav.Link href ='/Menu' className='text-uppercase fw-semibold'>Menu</Nav.Link>
 
-              <Nav.Link href='/Contact' className='text-uppercase fw-semibold'>Contact Us</Nav.Link>
+              <Nav.Link href ='/Contact' className='text-uppercase fw-semibold'>Contact Us</Nav.Link>
 
-              <Nav.Link href='./About' className='text-uppercase fw-semibold'>About</Nav.Link>
+              <Nav.Link href ='./About' className='text-uppercase fw-semibold'>About</Nav.Link>
 
             </Nav>
           </Navbar.Collapse>
@@ -36,7 +33,7 @@ export default function Navbarpage(){
    
       
       <Routes>
-        <Route path='/Home' element={<Home/>}/>
+        <Route path='/' element={<Home/>}/>
         <Route path='/Menu' element={<Menu/>}/>
         <Route path='/Contact' element={<Contact/>}/>
         <Route path='/About' element={<About/>}/>
