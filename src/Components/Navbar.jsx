@@ -8,23 +8,27 @@ import Contact from './Pages/Contact';
 import About from './Pages/About';
 import "./Pages/Home.css"
 
+
+
 export default function Navbarpage(){
     return(
         <div className='Navbarstyles'>
       <Navbar expand="lg" className='fixed-top bg-body-tertiary shadow'>
         <Container>
           <Navbar.Brand>
-            <Link to="./" className='navbar-brand text-success fw-semibold ' id='restname'>SS Restaurant</Link>
+            <Link to="./" className='navbar-brand  fw-semibold ' id='restname'> 
+            
+            SS Restaurant</Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav'/>
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className="me-auto justify-content-end w-100">
               <Nav.Link href ='/' className='  text-uppercase  fw-semibold'>Home</Nav.Link>
               <Nav.Link href ='/Menu' className='text-uppercase fw-semibold'>Menu</Nav.Link>
+              <Nav.Link href ='./About' className='text-uppercase fw-semibold'>About</Nav.Link>
 
               <Nav.Link href ='/Contact' className='text-uppercase fw-semibold'>Contact Us</Nav.Link>
 
-              <Nav.Link href ='./About' className='text-uppercase fw-semibold'>About</Nav.Link>
 
             </Nav>
           </Navbar.Collapse>

@@ -242,10 +242,10 @@ export default function Menu() {
 
 
 
- {/*  Lunch list */}
+            {/*  Lunch list */}
 
 
- <div className="lunch  text-light bg-dark py-5">
+            <div className="lunch  text-light bg-dark py-5">
                 <div className="container">
                     <h2 className="text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-danger">
                         Dessert
@@ -284,9 +284,9 @@ export default function Menu() {
 
 
 
- {/*  Juice list */}
+            {/*  Juice list */}
 
- <div className="Breakfast py-5">
+            <div className="Breakfast py-5">
                 <div className="container">
                     <h2 className="text-center fs-1 mb-4 mb-lg-5  fw-bold text-danger">
                         Juice

@@ -9,7 +9,7 @@ export function Contactinfo(){
             </h2>
 
             <p className="mb-5">
-                15-12f Northstreet,Marthandam, Kaniyakumari
+                15-12F , Northstreet,Marthandam, Kaniyakumari
             </p>
 
             <h3>
