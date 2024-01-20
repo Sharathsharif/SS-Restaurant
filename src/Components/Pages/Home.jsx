@@ -136,8 +136,8 @@ export default function Home() {
                             <Contactinfo />
 
                         </div>
-                        <div className="col-lg-6 d-flex justify-content-center">
-                            <img src= {Timinginfodetails} className="img-fluid w-50" alt="image" />
+                        <div className="col-lg-5 d-flex justify-content-center">
+                            <img src= {Timinginfodetails} className="img-fluid w-50 " alt="image" />
 
                         
 
