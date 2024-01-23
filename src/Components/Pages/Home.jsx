@@ -75,7 +75,7 @@ export default function Home() {
                                     <p className='fs-3 mx-2 text-success fw-nold'>at ₹399 only/-</p>
                                 </li>
                                 <li className='d-flex justify-content-between'>
-                                    <p className='fs-3 mx-2'>English Breakfast</p>
+                                    <p className='fs-3 mx-2'>TamilNadu Breakfast</p>
                                     <p className='fs-3 mx-2 text-success fw-nold'>at ₹99 only/-</p>
                                 </li>
                             </ul>

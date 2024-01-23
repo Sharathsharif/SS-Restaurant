@@ -2,7 +2,8 @@ import React from "react";
 import './Menu.css';
 import { Card, CardBody, CardText, CardTitle } from "react-bootstrap";
 import Breakfastimag from '../Image/gallery5.jpg'
-
+import Tamilnadu_Lunch from '../Image/Tamilnadu_Lunch.jpg'
+import Biriyani from '../Image/Biriyani.jpg'
 
 
 
@@ -10,7 +11,7 @@ const Breakfast = [
     {
         id: 1,
         name: 'Dosha combo',
-        Description: 'Rice, vadai,sambar, pachadi ',
+        description: '(includes 2 ghee Dosha with chicken curry / Egg Curry/ Veg Kuruma , 1 vadai) ',
         price: "₹150/-"
     },
     {
@@ -21,8 +22,14 @@ const Breakfast = [
     },
     {
         id: 3,
-        name: 'Dosha combo',
+        name: 'iddli combo',
         Description: 'Rice, vadai,sambar, pachadi ',
+        price: "₹150/-"
+    },
+    {
+        id: 4,
+        name: 'Porotta combo',
+        description: '(Includes 4 porotta with 1 plate chicken / beaf) ',
         price: "₹150/-"
     }
 ]
@@ -42,7 +49,7 @@ const Lunch = [
     },
     {
         id: 3,
-        name: 'Dosha combo',
+        name: 'Fish rice',
         Description: 'Rice, vadai,sambar, pachadi ',
         price: "₹150/-"
     }
@@ -51,19 +58,19 @@ const Lunch = [
 const Dinner = [
     {
         id: 1,
-        name: 'Dosha combo',
+        name: 'Porotta combo',
         description: 'Rice, vadai,sambar, pachadi ',
         price: "₹150/-"
     },
     {
         id: 2,
-        name: 'puttu combo',
+        name: 'idi Appam combo',
         description: 'Rice, chicken, papadam, pachadi ',
         price: "₹150/-"
     },
     {
         id: 3,
-        name: 'Dosha combo',
+        name: 'Chicken Biriyani',
         description: 'Rice, vadai,sambar, pachadi ',
         price: "₹150/-"
     }
@@ -148,10 +155,10 @@ export default function Menu() {
                                             <CardTitle className="text-center fs-2">
                                                 {Breakfast.name}
                                             </CardTitle>
-                                            {/* <CardText className="text-center fs-4">
-                                                {Breakfast.Description}
-                                            </CardText> */}
-                                            <CardText className="text-center fs-3 fw-bold">
+                                            <CardText className="text-center fs-4">
+                                                {Breakfast.description}
+                                            </CardText>
+                                            <CardText className="text-center fs-3 fw-bold text-success">
                                                 {Breakfast.price}
                                             </CardText>
                                         </CardBody>
@@ -196,7 +203,7 @@ export default function Menu() {
                             ))}
                         </div>
                         <div className="col-lg-6 d-flex justify-content-center">
-                            <img src={Breakfastimag} className="img-fluid w-75 mt-4 mt-lg-0 " alt="" />
+                            <img src={Tamilnadu_Lunch} className="img-fluid w-75 mt-4 mt-lg-0 " alt="" />
                         </div>
 
                     </div>
@@ -213,7 +220,7 @@ export default function Menu() {
                     </h2>
                     <div className="row flex-column-reverse flex-lg-row ">
                         <div className="col-lg-6 d-flex justify-content-center">
-                            <img src={Breakfastimag} className="img-fluid w-75 mt-4 mt-lg-0 " alt="" />
+                            <img src={Biriyani} className="img-fluid w-75 mt-4 mt-lg-0 " alt="" />
                         </div>
                         <div className="col-lg-6 d-flex flex-column justify-content-around">
                             {Dinner.map((Dinner) => (
