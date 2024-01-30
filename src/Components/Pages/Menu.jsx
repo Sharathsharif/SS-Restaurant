@@ -6,7 +6,6 @@ import Tamilnadu_Lunch from '../Image/Tamilnadu_Lunch.jpg'
 import Biriyani from '../Image/Biriyani.jpg'
 import chickenNoodles from '../Image/ChickenNoodles.jpg'
 import freshJuice from '../Image/freshJuice.jpg'
-import iceCream from '../Image/Dessert.jpg'
 import Gulab from '../Image/Gulab Jam.jpg'
 
 

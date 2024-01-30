@@ -137,7 +137,7 @@ export default function Home() {
 
                         </div>
                         <div className="col-lg-5 d-flex justify-content-center">
-                            <img src= {Timinginfodetails} className="img-fluid w-50 " alt="image" />
+                            <img src= {Timinginfodetails} className="img-fluid w-50 " alt="timeimage" />
 
                         
 
